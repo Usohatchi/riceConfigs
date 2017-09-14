@@ -1,0 +1,38 @@
+! ------------------------------------------------------------------------------
+!                      ROFI Settings
+! ------------------------------------------------------------------------------
+
+! General
+rofi.font:                Fixed 20
+rofi.hide-scrollbar:      true
+
+
+! Layout
+rofi.width:              50
+rofi.column:             5
+rofi.location:           0
+rofi.lines:              10
+rofi.padding:            50
+rofi.sidebar-mode:       false
+rofi.fullscreen:         false
+
+! ------------------------------------------------------------------------------
+!                      URXVT Settings
+! ------------------------------------------------------------------------------
+
+URxvt*scrollBar:                false
+urxvt*background:               rgba:4444/4444/4444/CCCC
+URxvt*termName:                 rxvt-256color
+URxvt*font:                     xft:RobotoMono-Medium:pixelsize=22
+URxvt.depth:                    32
+URxvt*lineSpace:                1
+URxvt*internalBorder:           50
+Urxvt*borderless:               false
+URxvt*cutchars:                 BACKSLASH '"'&()*,;<=>?@[]^{|}
+URxvt*savelines:                true
+URxvt*pastabletabs:             true
+URxvt.letterSpace:              0
+Xft.antialias:                  1
+Xft.autohint:                   0
+Xft.hinting:                    true
+Xft.hintstyle:                  hintslight
